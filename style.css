@@ -1,0 +1,640 @@
+            body{
+                margin: 0px;
+            }
+            .div1 {background-color:rgb(156, 202, 121 );
+                color: white;
+                padding: 20px 20px 15px 15px ;
+                display: flex;
+                justify-content: space-between ;
+                align-items: center;
+            }
+            .logo{
+                width: 240px; 
+            }
+            .links a{ 
+                color: rgb(105, 105, 161);
+                padding: 5px 15px ;
+                text-decoration: none;
+                border-radius: 40px;
+            }
+            .links button{ 
+                background-color: rgb(239, 70, 115);
+                padding: 5px 15px ;
+                text-decoration: none;
+                border-radius: 40px;
+                border: 0px;
+                color: white;
+            }
+            .links a:hover{
+                background-color: rgb(177, 203, 152);
+            }
+            .links button:hover{
+                background-color: rgb(190, 109, 130);
+            }
+            .montserrat{
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 900;
+                font-style: normal;
+            }
+            .playfair-display{
+                font-family: "Playfair Display", serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                position: relative;
+                top: -10px;
+            }
+            .roboto-slab 
+            {
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-size: 800;
+                font-style:normal ;
+                top: 10px;                
+            }          
+           .div2
+           {
+                 background-color: rgb(156, 202, 121 );
+                 color: rgb(18, 17, 17);
+                 padding: 20px 20px 15px 15px ;
+                }
+           .div2 button
+              {
+                 background-color: rgb(239, 70, 115);
+                 padding: 5px 15px ;
+                 text-decoration: none;
+                 border-radius: 40px;
+                 border: 0px;
+                 color: white;
+                 position: absolute;
+                 left: 200px;
+              }
+           .div2 button:hover
+              {
+                 background-color: rgb(190, 109, 130);
+              }
+           .div2 input
+              {
+                 color: rgb(105, 105, 161);
+                 padding: 10px 25px ;
+                 text-decoration: none;
+                 border-radius: 40px;
+              }
+           .div2 input:hover
+              {
+                 background-color: rgb(177, 203, 152);
+              }  
+           .div2 span
+              {
+                  font-family: "Playfair Display", serif;
+                  font-optical-sizing: auto;
+                  font-weight: 700;
+                  font-style: italic;
+                 display: block;
+                  margin-bottom: 10px;
+              }     
+           .div3
+              {
+                 background-color: rgb(156, 202, 121 );
+                 color: rgb(18, 17, 17);
+                 padding: 20px 20px 10px 15px ;
+                 justify-content: space-between;
+                 align-items: center;
+                 display: flex;
+                 border-radius: 0 0 60px 60px;
+                }
+           .photo
+           {
+                width: 250px; 
+                height: 300px;
+                object-fit: cover;
+                border-radius: 20px;
+                margin: 0px 30px 0px 0px;
+            }         
+           .div4
+           {
+            padding: 20px 10px 10px 15px ;
+            margin: 20px 10px 10px 10px;
+           } 
+        .div4 > span
+           {
+              display: block;
+              margin: 10px 0px 10px 0px;
+              color: rgb(113, 40, 40);
+              text-transform: uppercase;
+           } 
+       .books
+           {
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+               gap: 50px;
+               text-align: center;
+            } 
+       .book 
+           {
+               width: 290px;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               text-align: center;
+            } 
+       .book-img 
+           {
+                 width: 290px;
+                 box-sizing: border-box;
+                 border: 6px solid rgb(216, 184, 142); 
+                 background-color: white; 
+                 padding: 20px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 border-radius: 22px 22px 0px 0px;
+            }
+       .book-img img 
+           {
+                 width: 100%;
+                 aspect-ratio: 2/3;               
+                 object-fit: cover;
+                 border-radius: 20px;
+                 border: 3px solid #ccc;
+                 display:  block;
+                 margin: 0; 
+            }
+         .book-img img:hover
+            {
+                transform: scale(1.4);
+                transition: transform 0.3s ease-in-out;
+            }
+       .books p
+           {
+               font-family: "Inter", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 700;
+               font-style: normal;
+               /* margin: 10px 0px 10px 0px; */
+           }  
+       .books button
+           {
+               background-color: rgb(239, 70, 115);
+               padding: 10px 45px ;
+               text-decoration: none;
+               border-radius: 40px;
+               border: 0px;
+               color: white;
+           }
+       .books button:hover 
+              { 
+                 background-color: rgb(190, 109, 130); 
+              }
+       .book-info h2
+           {
+               font-family: "Montserrat", serif;
+               font-optical-sizing: auto;
+               font-weight: 700;
+               font-style: normal;
+               /* margin: 10px 0px 10px 0px; */
+               align-items: center;
+               width: 290px;
+               min-height: 50px;
+               text-align: center;
+           }       
+       .price
+           {
+               font-family: "Playfair Display", serif;
+               font-optical-sizing: auto;
+               font-weight: 700;
+               font-style: italic;
+               display: block;
+               /* margin: 10px 0px 10px 0px; */
+               color: rgb(113, 40, 40);
+           } 
+       .book-info
+           {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(216, 184, 142);
+                border-radius:0px 0px 20px 20px;
+                padding: 10px;
+                text-align: center;
+                width: 290px;
+           }     
+        .div5
+        {
+             justify-content: space-between;
+             align-items: center;
+             display: flex;
+        }
+        .div5 h1
+        {
+             font-family: "Montserrat", serif;
+             font-optical-sizing: auto;
+             font-weight: 700;
+             font-style: normal;
+             margin: 0px 0px 10px 0px;
+        }                  
+        .div5 button
+        {
+                   background-color: rgb(239, 70, 115);
+                   padding: 10px 45px ;
+                   text-decoration: none;
+                   border-radius: 40px;
+                   border: 0px;
+                   color: white;
+        }
+        .div5 button:hover 
+        { 
+          background-color: rgb(190, 109, 130); 
+        }
+        .div6
+        {
+            background-color: rgb(156, 202, 121 );
+            margin: 20px 10px 10px 10px;
+            padding: 20px 20px 15px 15px ;
+            border-radius: 20px;
+            color: rgb(18, 17, 17);
+        }
+        .div6 h1
+        {
+             font-family: "Montserrat", serif;
+             font-optical-sizing: auto;
+             font-weight: 700;
+             font-style: normal;
+             margin: 20px 0px 10px 0px;
+        }
+        .info-cards
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 50px;
+            text-align: center;
+        }
+        .info-card
+        {
+            width: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: rgb(113, 40, 40);
+        }
+        .info-card i
+        {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .info-card i:hover
+        {
+            color: rgb(239, 70, 115);
+        }
+
+        .info-card h2
+        {
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            margin: 10px 0px 10px 0px;
+        }
+        .info-card p
+        {
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            margin: 10px 0px 10px 0px;
+        }
+        .new-arrivals
+        {
+            padding: 20px 20px 15px 15px ;
+            border-radius: 20px;
+            color: rgb(113 , 40, 40);
+            display: flex;
+            justify-content: space-between;
+        }
+        .new-arrivals h1
+        {
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin: 20px 0px 10px 0px;
+        }
+        .new-arrivals button
+        {
+            background-color: rgb(239, 70, 115);
+            width: 200px;
+            height: 50px;
+            padding: 10px 45px ;
+            text-decoration: none;
+            border-radius: 40px;
+            border: 0px;
+            color: white;
+        }
+        .new-arrivals button:hover
+        {
+            background-color: rgb(190, 109, 130);
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .new-arrivals-books
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 50px;
+            text-align: center;
+        } 
+        .new-arrival-book
+        {
+            width: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+        }
+        .new-arrival-book-img img
+        {
+            width: 100%;              
+            object-fit: cover;
+            border-radius: 20px;
+            display:  block;
+            margin: 0; 
+        }
+        .new-arrival-book-img img:hover
+        {
+            transform: scale(1.33);
+            transition: transform 0.3s ease-in-out;
+        }
+        .new-arrival-book-button
+        {
+            margin-top:auto;
+        }
+        .new-arrival-book-button button
+        {
+            background-color: rgb(239, 70, 115);
+            padding: 10px 45px ;
+            text-decoration: none;
+            border-radius: 40px;
+            border: 0px;
+            color: white;
+        }
+        .new-arrival-book-button button:hover
+        {
+            background-color: rgb(190, 109, 130);
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;        
+        }
+        .new-arrivals-books p
+        {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .new-arrival-book-info h2
+        {
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            align-items: center;
+            width: 290px;
+            min-height: 50px;
+            text-align: center;
+        }
+        .new-arrival-book-info .price
+        {
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: italic;
+            display: block;
+            color: rgb(113, 40, 40);
+        }
+        .customer-reviews
+        {
+            background-color: rgb(156, 202, 121 );
+            border-radius: 20px;
+            padding: 20px 20px 15px 15px ;
+            margin: 20px 10px 10px 10px;
+        }
+        .customer-reviews h1
+        {
+            font-family: "Roboto Slab", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            margin: 20px 0px 10px 0px;
+        }
+        .reviews
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 50px;
+            text-align: center;
+        }
+        .review
+        {
+            width: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: rgb(2, 255, 196);
+        }
+        .review p
+        {
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            margin: 10px 0px 10px 0px;
+        }
+       .rating
+        {
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            margin: 10px 0px 10px 0px;
+            color: rgb(254, 250, 2);
+        }
+        .review span
+        {
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            margin: 10px 0px 10px 0px;
+        }
+        .footer
+        {
+            background-color: rgb(113, 40, 40);
+            border-radius: 40px 40px 0px 0px;
+            margin: 20px 10px 0px 10px;
+            padding: 30px 20px 20px 20px;
+            text-align: center;
+            color: rgb(233, 215, 190);
+        }
+        .footer p
+        {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 1000;
+            font-style: normal;
+            margin: 10px 0px 10px 0px;
+        }
+        .footer-tagline
+        {
+            color: white;
+            font-size: 20px;
+            margin: 0px 0px 15px 0px;
+        }
+        .footer-social
+        {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        .footer-social i:hover
+        {
+            color: rgb(239, 70, 115);
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .footer-links
+        {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 25px;
+        }
+        .footer-links a
+        {
+            color: rgb(233, 215, 190);
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-size: 19px;
+        }
+        .footer-links a:hover
+        {
+            color: rgb(239, 70, 115);
+        }
+        .footer-copy
+        {
+            font-size: 11px;
+            color: rgb(200, 175, 150);
+            border-top: 1px solid rgba(255,255,255,0.15);
+            padding-top: 12px;
+            margin: 0px;
+        }
+    @media (max-width: 900px)
+    {
+        .div3
+        {
+            flex-direction: column;
+            text-align: center;
+        }
+        .photo
+        {
+            margin: 20px 0px 0px 0px;
+        }
+        .books
+        {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .info-cards
+        {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .new-arrivals-books
+        {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .reviews
+        {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media (max-width: 600px)
+    {
+        .div1
+        {
+            flex-direction: column;
+            gap: 12px;
+            text-align: center;
+        }
+        .logo
+        {
+            width: 180px;
+        }
+        .div2 button
+        {
+            position: static;
+            margin-top: 10px;
+        }
+        .div2 input
+        {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .books
+        {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .book, .book-img, .book-info
+        {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .info-cards
+        {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .info-card
+        {
+            width: 100%;
+        }
+        .new-arrivals
+        {
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+        }
+        .new-arrivals-books
+        {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .new-arrival-book
+        {
+            width: 100%;
+        }
+        .customer-reviews .reviews
+        {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .review
+        {
+            width: 100%;
+        }
+        .footer-social
+        {
+            gap: 20px;
+            font-size: 30px;
+        }
+        .footer-links
+        {
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .footer-links a
+        {
+            font-size: 15px;
+        }
+    }
