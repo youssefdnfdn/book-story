@@ -533,6 +533,136 @@
             padding-top: 12px;
             margin: 0px;
         }
+       .login-dialog {
+           text-align: center;
+           font-size: 12px;
+           color: #9cca79;
+           font-weight: 600;
+           margin: 0 0 20px;
+        }
+        .input-wrap {
+           display: flex;
+           align-items: center;
+           gap: 8px;
+           background-color: #f5f7f2;
+           border-radius: 10px;
+           padding: 10px 12px;
+           margin-bottom: 12px;
+        }       
+        .input-wrap i {
+           color: #9cca79;
+           font-size: 16px;
+        }       
+        .input-wrap input {
+           border: none;
+           background: transparent;
+           outline: none;
+           font-size: 13px;
+           width: 100%;
+        }
+        .login-dialog button[type="submit"] {
+           background: linear-gradient(90deg, #ef4673, #f78ca2);
+           border: none;
+           color: #fff; 
+           padding: 10px 20px;
+           border-radius: 20px;
+           cursor: pointer;
+        }
+        .login-dialog button[type="submit"]:hover {
+           background: linear-gradient(90deg, #f78ca2, #ef4673);
+           transition: background 0.3s ease-in-out;
+        }   
+        .login-dialog a {
+           color: #ef4673;
+           text-decoration: none;
+           font-size: 18px;
+           transition: text-decoration 0.3s ease-in-out;
+           margin-top: 30px;
+        }
+        .login-dialog a:hover {
+           text-decoration: underline;
+        }
+        .login-dialog h1 {
+           font-size: 24px;
+           margin-bottom: 10px;
+        }
+        .login-dialog h4 {
+           font-size: 14px;
+           margin-bottom: 20px;
+        }
+        .login-dialog form {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        }
+        .login-dialog .input-wrap {
+           width: 100%;
+           max-width: 300px;
+        }
+        .login-dialog button[type="submit"] {
+           width: 100%;
+           max-width: 300px;
+        }
+        .login-dialog a {
+           margin-top: 15px;
+        }
+        .login-dialog .input-wrap input:focus {
+           border-bottom: 2px solid #ef4673;
+        }
+        .login-dialog .input-wrap input::placeholder {
+           color: #9cca79;
+        }
+        .login-dialog .input-wrap input:focus::placeholder {
+           color: #ef4673;
+        }
+        .login-dialog .input-wrap i {
+           transition: color 0.3s ease-in-out;
+        }
+        .login-dialog p
+        {
+           font-size: 20px;
+           color: #9cca79;
+           margin-top: 10px;
+        }
+        .social-login {
+          grid-template-columns: repeat(2, 1fr);
+          display: grid;
+        }
+        .social-btn {
+           display: flex;
+           align-items: center;
+           gap: 8px;
+           color: #9cca79;
+           padding: 10px 20px;
+           border-radius: 20px;
+           text-decoration: none;
+           transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        .social-btn:hover {
+           background-color: #ef4673;
+           color: #fff;
+        }
+        .back-link {
+           display: inline-block;
+           margin-top: 20px;
+           color: #9cca79;
+           text-decoration: none;
+           font-size: 22px;
+           transition: color 0.3s ease-in-out;
+           align-items: center;
+           display: flex;
+           gap: 8px;
+        }
+        .back-link:hover {
+           color: #ef4673;
+        }
+        .login-page {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           background-color: #111b06;
+        }
     @media (max-width: 900px)
     {
         .div3
@@ -559,6 +689,10 @@
         .reviews
         {
             grid-template-columns: repeat(2, 1fr);
+        }
+        .login-dialog
+        {
+            width: auto;
         }
     }
     
@@ -636,5 +770,9 @@
         .footer-links a
         {
             font-size: 15px;
+        }
+        .login-dialog
+        {
+            width: auto;
         }
     }

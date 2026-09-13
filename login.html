@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+        <title>login to Book Store</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body class="login-page"> 
+        <div class="login-dialog" id="loginDialog">
+           <h1>Welcome Back 👋</h1>
+           <h4>Enter your details to access your account</h4>
+            <form>
+                <div class="input-wrap">
+                   <i class="ti ti-user"></i>
+                   <input type="text" id="username" name="username or email" placeholder="username or email" aria-label="username or email" required>
+                </div> 
+                <div class="input-wrap">
+                   <i class="ti ti-lock"></i>
+                   <input type="password" id="password" name="password" placeholder="password" aria-label="password" required>
+                </div>
+                  <a href="forgot_password.html">Forgot Password?</a><br>
+                  <button type="submit">Login</button>
+            </form>
+            <div class="account-line">
+                <p class="account-line">Don't have an account? <a href="register.html">Create account</a></p>
+            </div>
+            <div class="divider">
+                <span></span>
+                <p>or continue with</p>
+                <span></span>
+            </div>
+            <div class="social-login">
+                <a class="social-btn" href="#"><i class="ti ti-brand-google"></i>Login with Google</a>
+                <a class="social-btn" href="#"><i class="ti ti-brand-facebook"></i>Login with Facebook</a>
+            </div>
+        </div>
+        <a href="index.html" class="back-link"><i class="ti ti-arrow-left"></i>Back to Home</a>
+    </body>
+</html>
