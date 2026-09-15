@@ -663,6 +663,96 @@
            height: 100vh;
            background-color: #111b06;
         }
+        .register
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width:100%;
+        }
+        .left
+        {
+            background-color: #9cca79;
+            color: rgb(255, 255, 254); 
+            height: 100vh;
+            width: 50%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 40px;
+            flex-direction: column ;
+            box-sizing: border-box;
+        }
+        .right
+        {
+            background-color: #060a03;
+             color: rgb(63, 182, 30);
+             height: 100vh;
+             width: 50%;
+             align-items: center;
+             display: flex;
+             flex-direction: column;
+             box-sizing: border-box;
+        }
+        .left h1
+        {
+           font-size: 50px; 
+           margin-top: 30px;
+           max-width:440px;
+           text-align: center;
+        }
+        .left b
+        {
+           font-size: 23px;
+           font-family: Roboto;
+        }
+        .right h1
+        {
+           font-size: 50px;
+           margin-top:100px;
+        }
+        .right button
+        {
+           color: #f4f4f4;
+           background-color: #ef4673;
+           padding: 20px 10px;
+           cursor: pointer;
+           border: none;
+           border-radius: 15px;
+           width: 100%;
+           margin: 10px 0 0 0 ;
+        }
+        .right button :hover
+        {
+            background-color: #f78ca2;
+            transition: text-decoration (0.3s ease-in-out);
+        }
+        .input-wrap2 {
+           display: flex;
+           align-items: center;
+           gap: 8px;
+           background-color: #f5f7f2;
+           border-radius: 15px;
+           padding: 15px 25px;
+           margin-bottom: 20px;
+        }       
+        .input-wrap2 i {
+           color: #9cca79;
+           font-size: 16px;
+        }       
+        .input-wrap2 input {
+           border: none;
+           background: transparent;
+           outline: none;
+           font-size: 13px;
+           width: 100%;
+        }
+        .check
+        {
+            margin: 10px;
+        }
     @media (max-width: 900px)
     {
         .div3
@@ -691,6 +781,10 @@
             grid-template-columns: repeat(2, 1fr);
         }
         .login-dialog
+        {
+            width: auto;
+        }
+        .register
         {
             width: auto;
         }
@@ -772,6 +866,10 @@
             font-size: 15px;
         }
         .login-dialog
+        {
+            width: auto;
+        }
+        .register
         {
             width: auto;
         }
