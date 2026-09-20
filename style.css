@@ -1,4 +1,8 @@
-            body{
+           * 
+            {
+             box-sizing: border-box;
+            }
+           body{
                 margin: 0px;
             }
             .div1 {background-color:rgb(156, 202, 121 );
@@ -143,7 +147,7 @@
            {
                  width: 290px;
                  box-sizing: border-box;
-                 border: 6px solid rgb(216, 184, 142); 
+                 border: 6px solid #9cca79; 
                  background-color: white; 
                  padding: 20px;
                  display: flex;
@@ -214,7 +218,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                background-color: rgb(216, 184, 142);
+                background-color: #9cca79;
                 border-radius:0px 0px 20px 20px;
                 padding: 10px;
                 text-align: center;
@@ -471,7 +475,7 @@
         }
         .footer
         {
-            background-color: rgb(113, 40, 40);
+            background-color: #111b06;
             border-radius: 40px 40px 0px 0px;
             margin: 20px 10px 0px 10px;
             padding: 30px 20px 20px 20px;
@@ -753,6 +757,200 @@
         {
             margin: 10px;
         }
+        .account-line b
+        {
+            font-size: 27px;
+            font-family:serif
+        }
+        .account-line a
+        {
+            color: #ef4673;
+            font-size: 20px;
+            font-family: serif;
+        }
+        .title
+        {
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+           color: #9cca79;
+        }
+        .title h1
+        {
+            margin: 10px 0 0 0;
+        }
+        .title b
+        {
+            color: darkgrey;
+            font-size:x-large;
+        }
+        .sidebar
+        {
+           background-color: #111b06;
+           color: #9cca79;
+           height: 100%;
+           width: 18%;
+           padding: 5px;
+           border-radius: 10px;
+           position: sticky;
+           top: 20px;
+           align-self: flex-start;
+        }
+        .search-box 
+        {
+           display: flex;
+           align-items: center;
+           gap: 6px;
+           background-color: #fff;
+           border: 1px solid #e5e5e5;
+           border-radius: 20px;
+           padding: 6px 10px;
+           margin: 15px 10px;
+        }
+        .search-box i  
+        {
+            color: #999;
+            font-size: 14px;
+        }
+        .search-box input 
+        {
+            border: none;
+            background: transparent;
+            outline: none;
+            font-size: 12px;
+        }
+        .sidebar h3
+        {
+            margin: 15px ;
+            padding: 5px;
+            font-size: x-large;
+        }
+        .category-list
+        {
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+            
+        .category-list input
+        {
+           margin: 5px 5px 5px 10px;
+        }
+        .category-list :hover
+        {
+           color: #d55f5f;
+        }
+        .price-range
+        {
+           accent-color: #9cca79;
+           width: 100%;
+           font-family:sans-serif;
+           font-size: 20px;
+        }
+        .price-range :hover
+        {
+            accent-color: #ef4673;
+        }
+        .price-range h3
+        {
+            margin: 15px 15px 5px 10px;
+        }
+        .all-page
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width:100%;
+        }
+        .cards
+        {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 16px;
+            padding: 5px;
+        }
+        .book-card
+        {
+            background-color: #f7f7f5;
+            border-radius: 10px;
+            padding: 12px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .book-card img
+        {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+        .book-card img:hover
+        {
+          transition: transform 0.3s ease-in-out;
+          transform: scale(1.1);
+        }
+        .book-card h2
+        {
+            font-size: 14px;
+            margin: 0 0 4px;
+        }
+        .book-card p
+        {
+            color: #777;
+            font-size: 12px;
+            margin: 0 0 8px;
+        }
+        .book-card-footer
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .book-card-footer .price
+        {
+            color: #ef4673;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .book-card-footer button
+        {
+            background: linear-gradient(90deg, #ef4673, #f78ca2);
+            color: #fff;
+            border: none;
+            border-radius: 14px;
+            padding: 5px 10px;
+            font-size: 11px;
+            cursor: pointer;
+        }
+        .book-card-footer button:hover
+        {
+          color: #f78ca2;
+        }
+        .books-page
+        {
+            background-color: #111b06;
+            min-height: 100vh;
+        }
+        .sort-box
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+        .sort-box select 
+        {
+            padding: 6px 10px;
+            border-radius: 8px;
+            border: 1px solid #faf7f7;
+            font-size: 12px;
+            color:#111b06;
+        }
     @media (max-width: 900px)
     {
         .div3
@@ -787,6 +985,15 @@
         .register
         {
             width: auto;
+        }
+        .all-page 
+        {
+            flex-direction: column;
+        }
+        .sidebar 
+        {
+            width: 100%;
+            position: static;
         }
     }
     

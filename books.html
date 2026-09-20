@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Shop Books - Book Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="books-page">
+        <!-- header -->
+        <div class="div1 montserrat">
+            <img class="logo" src="images/book_store_new_logo_v2.gif" />
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <a href="books.html">SHOP</a>
+                <a href="#">NEW</a>
+            </div>
+        </div>
+
+        <!-- title -->
+        <div class="title">
+            <h1>Explore All Books</h1>
+            <p>Find your next favorite read</p>
+        </div>
+
+        <!-- all page -->
+        <div class="all-page">
+          <!-- sidebar -->
+          <div class="sidebar">
+           <div class="search-box">
+              <i class="ti ti-search"></i>
+              <input type="text" placeholder="Search ...">
+            </div>
+            <h3>Category</h3>
+            <div class="category-list">
+             <label><input type="radio" name="category" value="all" checked> All</label>
+             <label><input type="radio" name="category" value="fantasy"> Fantasy</label>
+             <label><input type="radio" name="category" value="mystery"> Mystery</label>
+             <label><input type="radio" name="category" value="fiction"> Fiction</label>
+            </div>
+            <div class="price-range">
+             <h3>Price (up to $12)</h3>
+             <input type="range" min="0" max="12" value="6">
+            </div>
+            <div class="sort-box">
+             <label for="sort">Sort by:</label>
+             <select id="sort">
+               <option>Popularity</option>
+               <option>Price: Low to High</option>
+               <option>Price: High to Low</option>
+             </select>
+            </div>
+          </div>
+          <!-- cards -->
+          <div class="cards">
+            <div class="book-card">
+                <img src="images/card1.png" alt="Age of Shadows">
+                <h2>Age of Shadows</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$10.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card2.png" alt="The Prince and the Witch">
+                <h2>The Prince and the Witch</h2>
+                <p>L.A. Thompson</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card3.png" alt="Revenant">
+                <h2>Revenant</h2>
+                <p>Julia Rohwedder</p>
+                <div class="book-card-footer">
+                    <span class="price">$8.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card4.png" alt="Alice in Neverland">
+                <h2>Alice in Neverland</h2>
+                <p>Jeni Conrad</p>
+                <div class="book-card-footer">
+                    <span class="price">$11.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card5.png" alt="Realm of Ruins">
+                <h2>Realm of Ruins</h2>
+                <p>Hannah West</p>
+                <div class="book-card-footer">
+                    <span class="price">$10.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card6.png" alt="The Island">
+                <h2>The Island</h2>
+                <p>S. Usher Evans</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card7.png" alt="Goddess of the Ways">
+                <h2>Goddess of the Ways</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$11.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card8.png" alt="The Harrowing">
+                <h2>The Harrowing</h2>
+                <p>KB Benson</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card9.png" alt="The Spirit Demon">
+                <h2>The Spirit Demon</h2>
+                <p>Ariel Rose Danus</p>
+                <div class="book-card-footer">
+                    <span class="price">$8.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card10.png" alt="House of Locks">
+                <h2>House of Locks</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$7.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card11.png" alt="The Fall of Iromouth">
+                <h2>The Fall of Iromouth</h2>
+                <p>Thalia Blake</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card12.png" alt="The Ice Queen">
+                <h2>The Ice Queen</h2>
+                <p>Jovee Winters</p>
+                <div class="book-card-footer">
+                    <span class="price">$10.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card13.png" alt="Silver Queen">
+                <h2>Silver Queen</h2>
+                <p>Elara Frostwind</p>
+                <div class="book-card-footer">
+                    <span class="price">$11.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card14.png" alt="Crown of the Fallen">
+                <h2>Crown of the Fallen</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$8.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card15.png" alt="Royal Destiny">
+                <h2>Royal Destiny</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card16.png" alt="The Hero and the Crown">
+                <h2>The Hero and the Crown</h2>
+                <p>Robin McKinley</p>
+                <div class="book-card-footer">
+                    <span class="price">$7.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card17.png" alt="The Dragon Princess">
+                <h2>The Dragon Princess</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$10.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card18.png" alt="The Dragon's Queen">
+                <h2>The Dragon's Queen</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$11.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card19.png" alt="A Dream of Fate & Flesh">
+                <h2>A Dream of Fate & Flesh</h2>
+                <p>Miranda Joy</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card20.png" alt="Peter Pan in Wonderland">
+                <h2>Peter Pan in Wonderland</h2>
+                <p>Jeni Conrad</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card21.png" alt="Raging Wind">
+                <h2>Raging Wind</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$8.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card22.png" alt="Oath of Silence">
+                <h2>Oath of Silence</h2>
+                <p>Author Name</p>
+                <div class="book-card-footer">
+                    <span class="price">$10.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card23.png" alt="Dark Reflections">
+                <h2>Dark Reflections</h2>
+                <p>Black, Caldwell & Farran</p>
+                <div class="book-card-footer">
+                    <span class="price">$11.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card24.png" alt="The Book of Shadows">
+                <h2>The Book of Shadows</h2>
+                <p>Anastasia Greywolf</p>
+                <div class="book-card-footer">
+                    <span class="price">$9.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card25.png" alt="Whispers in the Dark">
+                <h2>Whispers in the Dark</h2>
+                <p>M.T. Solomon</p>
+                <div class="book-card-footer">
+                    <span class="price">$8.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card26.png" alt="Soul">
+                <h2>Soul</h2>
+                <p>Olivia Wilson</p>
+                <div class="book-card-footer">
+                    <span class="price">$7.49</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="images/card27.png" alt="Shadows of Labyrinth">
+                <h2>Shadows of Labyrinth</h2>
+                <p>Jordan Clarke</p>
+                <div class="book-card-footer">
+                    <span class="price">$10.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+          <p class="footer-tagline playfair-display">Discover your next adventure</p>
+          <div class="footer-social">
+            <i class="ti ti-brand-instagram"></i>
+            <i class="ti ti-brand-facebook"></i>
+            <i class="ti ti-brand-x"></i>
+          </div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="books.html">Shop</a>
+            <a href="new.httml">New</a>
+            <a href="#">Contact</a>
+          </div>
+          <p class="footer-copy">© 2026 Book Store — All rights reserved</p>
+        </div>
+    </body>
+</html>

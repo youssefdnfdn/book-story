@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
         <title> register to Book Store</title>
         <link rel="stylesheet" href="style.css"> 
     </head>
@@ -20,26 +23,29 @@
                 <form>
                     <div class="input-wrap2">
                         <i class="ti ti-user"></i>
-                        <input type="text" autofocus ... autocomplete="given-name" id="Full name" name=" Full name" placeholder="FUll name" aria-label="Full name " required>
+                        <input type="text" autofocus autocomplete="given-name" id="Full name" name="Full name" placeholder="FUll name" aria-label="Full name " required>
                     </div>
                     <div class="input-wrap2">
                         <i class="ti ti-mail"></i>     
-                        <input type="email" autofocus ... autocomplete="email" id="email" name="Email" placeholder="Email" aria-label="Email" required>
+                        <input type="email"  autocomplete="email" id="email" name="Email" placeholder="Email" aria-label="Email" required>
                     </div> 
                     <div class="input-wrap2">
                         <i class="ti ti-lock"></i>
-                        <input type="password" autofocus ... autocomplete="new-password" id="password" name="password" placeholder="password" aria-label="password" required>
+                        <input type="password"  autocomplete="new-password" id="password" name="password" placeholder="password" aria-label="password" required>
                     </div>
                      <div class="input-wrap2">
                         <i class="ti ti-lock"></i>
-                        <input type="password" autofocus ... autocomplete="new-password" id="confirm" name="confirm" placeholder="confirm" aria-label="confirm" required>
+                        <input type="password"  autocomplete="new-password" id="confirm" name="confirm" placeholder="confirm" aria-label="confirm" required>
                     </div>
                     <label>
                         <input class="check" type="checkbox" required>
                         I agree to the Terms & Privacy Policy
                     </label>
                     <button type="submit">Create Account</button>
-                </form>    
+                </form> 
+                <div class="account-line">
+                    <p class="account-line"> Already have an account? <a href="login.html">login</a></p>
+                </div>   
             </div>
     </body>
 </html>
