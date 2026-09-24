@@ -1095,6 +1095,138 @@
             line-height: 1.7;
             margin: 0;
         }
+        .cart-title 
+        {
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+           color: #9cca79;;
+            
+        }   
+        .cart-title h1
+        {
+            margin: 20px 0 0px 0;
+            font-size: 35px;
+        }
+        .cart-title b
+        {
+            font-size: 30px;
+            margin: 0 0 20px 0;
+            color: #7a8a6f;
+        }
+        .cart-page
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width:100%;
+            gap: 25px;
+
+        }
+        .carts
+        {
+            align-items:  stretch;
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+        }
+        .cart {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #333f26;
+            margin: 0 10px 10px 60px;
+            border-radius: 25px;
+            padding: 12px;
+        }
+        
+        .cart-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #cfd8c6;
+            flex:1;
+        }
+        .cart-info h2 {
+            color: #fff;
+            font-size: 18px;
+            margin: 0 0 6px 0;
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }        
+        .cart-info b {
+            color: #7a8a6f;
+            font-weight: normal;
+            font-size: 14px;
+        }
+        
+        .cart-img {
+            width: 100px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .cart-price 
+        {
+            font-style: normal;
+            font-size: 22px;
+            color: #ef4673;
+            margin: 0 10px;
+        }
+        .remove-item {
+            color: #7a8a6f;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.2s ease-in-out;
+            margin: 0 30px 0 0;
+        }
+        
+        .remove-item:hover {
+            color: #ef4673;
+        }
+        .summary {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px;
+            border-radius: 15px;
+            width: 280px;
+            background-color: #333f26;
+            margin: 0 90px 0 20px;
+        }
+        .checkout-btn {
+            background: linear-gradient(90deg, #ef4673, #f78ca2);
+            color: #fff;
+            border: none;
+            border-radius: 18px;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .summary h1 {
+            font-size: 20px;
+            color: #9cca79;
+            margin: 0 0 5px 0;
+        }
+        
+        .total {
+            justify-content: space-between;
+            color: #cfd8c6;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .total:last-of-type {
+            border-top: 1px solid rgba(255,255,255,0.15);
+            padding-top: 10px;
+            margin-top: 5px;
+            color: #fff;
+            font-size: 18px;
+        }
     @media (max-width: 900px)
     {
         .div3
@@ -1145,6 +1277,13 @@
         .book-detail .cover {
             width: 100%;
             height: auto;
+        }
+        .cart-page {
+            flex-direction: column;
+            width: 70%;
+        }
+        .summary {
+            width: 70%;
         }
     }
     
@@ -1230,5 +1369,17 @@
         .register
         {
             width: auto;
+        }
+        .cart {
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 0 0 12px 0;
+        }
+        .cart-img {
+            width: 100%;
+            height: 180px;
+        }
+        .remove-item {
+            margin: 0;
         }
     }
