@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Wishlist - Book Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="books-page">
+        <!-- header -->
+        <div class="div1 montserrat">
+             <a href="index.html"><img class="logo" src="images/book_store_new_logo_v2.gif" /></a>
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <a href="books.html">SHOP</a>
+                <a href="new.html">NEW</a>
+                <a href="wishlist.html"><i class="ti ti-heart"></i></a>
+                <a href="cart.html"><i class="ti ti-shopping-cart"></i></a>
+                <a href="profile.html" class="header-avatar">G</a>
+            </div>
+        </div>
+
+        <!-- title -->
+        <div class="cart-title">
+            <h1>Your Wishlist</h1>
+            <b>3 books saved</b>
+        </div>
+
+        <!-- wishlist items -->
+        <div class="wishlist-list">
+            <div class="cart">
+                <div>
+                    <img class="cart-img" src="images/card1.png" alt="Frankenstein">
+                </div>
+                <div class="cart-info">
+                    <h2>Frankenstein</h2>
+                    <b>Mary Shelley</b>
+                </div>
+                <p class="cart-price">$10.99</p>
+                <div class="wishlist-item-actions">
+                    <button class="wishlist-add-btn">Add to Cart</button>
+                    <span class="wishlist-heart">&#9829;</span>
+                </div>
+            </div>
+            <div class="cart">
+                <div>
+                    <img class="cart-img" src="images/card10.png" alt="Dracula">
+                </div>
+                <div class="cart-info">
+                    <h2>Dracula</h2>
+                    <b>Bram Stoker</b>
+                </div>
+                <p class="cart-price">$7.99</p>
+                <div class="wishlist-item-actions">
+                    <button class="wishlist-add-btn">Add to Cart</button>
+                    <span class="wishlist-heart">&#9829;</span>
+                </div>
+            </div>
+            <div class="cart">
+                <div>
+                    <img class="cart-img" src="images/card14.png" alt="Jane Eyre">
+                </div>
+                <div class="cart-info">
+                    <h2>Jane Eyre</h2>
+                    <b>Charlotte Brontë</b>
+                </div>
+                <p class="cart-price">$8.99</p>
+                <div class="wishlist-item-actions">
+                    <button class="wishlist-add-btn">Add to Cart</button>
+                    <span class="wishlist-heart">&#9829;</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- empty state: hide .wishlist-list above and remove display:none here when the list has zero items -->
+        <div class="wishlist-empty" style="display:none;">
+            <i class="ti ti-heart"></i>
+            <h2>Your wishlist is empty</h2>
+            <p>Browse books and tap the heart icon on any book to save it here.</p>
+            <a href="books.html" class="checkout-btn" style="text-decoration:none;">Browse Books</a>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+          <p class="footer-tagline playfair-display">Discover your next adventure</p>
+          <div class="footer-social">
+            <i class="ti ti-brand-instagram"></i>
+            <i class="ti ti-brand-facebook"></i>
+            <i class="ti ti-brand-x"></i>
+          </div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="books.html">Shop</a>
+            <a href="new.html">New</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <p class="footer-copy">© 2026 Book Store — All rights reserved</p>
+        </div>
+    </body>
+</html>

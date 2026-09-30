@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <title>Search Results - Book Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="books-page">
+        <!-- header -->
+        <div class="div1 montserrat">
+            <a href="index.html"><img class="logo" src="images/book_store_new_logo_v2.gif" /></a>
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <a href="books.html">SHOP</a>
+                <a href="new.html">NEW</a>
+                <a href="profile.html" class="header-avatar">G</a>
+            </div>
+        </div>
+
+        <!-- title -->
+        <div class="title">
+            <h1>Search Results</h1>
+            <p id="search-query">Results for "night circus" — 3 books found</p>
+        </div>
+
+        <!-- same layout as books.html: sidebar + cards -->
+        <div class="all-page">
+          <div class="sidebar">
+           <div class="search-box">
+              <i class="ti ti-search"></i>
+              <input type="text" placeholder="Search ..." value="night circus">
+            </div>
+            <h3>Category</h3>
+            <div class="category-list">
+             <label><input type="radio" name="category" value="all" checked> All</label>
+             <label><input type="radio" name="category" value="fantasy"> Fantasy</label>
+             <label><input type="radio" name="category" value="mystery"> Mystery</label>
+             <label><input type="radio" name="category" value="fiction"> Fiction</label>
+            </div>
+            <div class="price-range">
+             <h3>Price (up to $25)</h3>
+             <input type="range" min="0" max="25" value="15">
+            </div>
+            <div class="sort-box">
+             <label for="sort">Sort by:</label>
+             <select id="sort">
+               <option>Relevance</option>
+               <option>Price: Low to High</option>
+               <option>Price: High to Low</option>
+             </select>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="book-card">
+                <a href="book-details.html"><img src="images/search_1.png" alt="The Night Circus"></a>
+                <h2>The Night Circus</h2>
+                <p>Erin Morgenstern</p>
+                <div class="book-card-footer">
+                    <span class="price">$13.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <a href="book-details.html"><img src="images/search_2.png" alt="Born a Crime"></a>
+                <h2>Born a Crime</h2>
+                <p>Trevor Noah</p>
+                <div class="book-card-footer">
+                    <span class="price">$14.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="book-card">
+                <a href="book-details.html"><img src="images/search_3.png" alt="Becoming"></a>
+                <h2>Becoming</h2>
+                <p>Michelle Obama</p>
+                <div class="book-card-footer">
+                    <span class="price">$19.99</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+          </div>
+
+          <!-- empty state: JS should hide .cards above and remove display:none here when there are zero matches -->
+          <div class="no-results">
+            <i class="ti ti-search"></i>
+            <h2>No books match your search</h2>
+            <p>Try a different keyword or browse all books instead.</p>
+            <a href="books.html" class="checkout-btn" style="text-decoration:none;">Browse All Books</a>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+          <p class="footer-tagline playfair-display">Discover your next adventure</p>
+          <div class="footer-social">
+            <i class="ti ti-brand-instagram"></i>
+            <i class="ti ti-brand-facebook"></i>
+            <i class="ti ti-brand-x"></i>
+          </div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="books.html">Shop</a>
+            <a href="new.html">New</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <p class="footer-copy">© 2026 Book Store — All rights reserved</p>
+        </div>
+    </body>
+</html>

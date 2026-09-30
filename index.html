@@ -15,14 +15,16 @@
         <div class="index">
             <!--header-->
             <div class="div1 montserrat">
-                 <img class="logo" src="images/book_store_new_logo_v2.gif" 
-                  />
+                 <a href="index.html"><img class="logo" src="images/book_store_new_logo_v2.gif" 
+                  /></a>
                      <div class="links">
                          <a href="index.html">HOME</a>
                          <a href="books.html">SHOP</a>  
                          <a href="new.html">NEW</a>
+                <a href="wishlist.html"><i class="ti ti-heart"></i></a>
                          <a href="cart.html"><i class="ti ti-shopping-cart"></i></a>
                          <a href="login.html"><button>Login</button></a>   
+                         <a href="profile.html" class="header-avatar">G</a>
                      </div>
             </div> 
             <!--landing page-->
@@ -37,8 +39,10 @@
                            you can always find something interesting to read.
                            Discover new stories, find your favorite books, and start your next reading journey with us!
                         </p>
-                        <input type="text" placeholder="Search for books...">
-                        <button>Search</button>
+                        <form action="search-results.html" method="get">
+                            <input type="text" name="q" placeholder="Search for books...">
+                            <button type="submit">Search</button>
+                        </form>
                     </div> 
                 </div>
                 <div>
@@ -288,7 +292,7 @@
                     <a href="index.html">Home</a>
                     <a href="books.html">Shop</a>
                     <a href="new.html">New</a>
-                    <a href="#">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </div>
                 <p class="footer-copy">© 2026 Book Store — All rights reserved</p>
             </div>

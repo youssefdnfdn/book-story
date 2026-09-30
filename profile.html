@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8" />
-        <title> Book details - Book Store</title>
+        <title>My Account - Book Store</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="books-page">
@@ -18,41 +18,55 @@
                 <a href="index.html">HOME</a>
                 <a href="books.html">SHOP</a>
                 <a href="new.html">NEW</a>
-                <a href="wishlist.html"><i class="ti ti-heart"></i></a>
-                <a href="cart.html"><i class="ti ti-shopping-cart"></i></a>
-                <a href="profile.html" class="header-avatar">G</a>
             </div>
         </div>
-        <!-- ditalis page -->
-       <div class="details-page">
-           <div class="book-detail">
-                <div class="cover">
-                   <img src="images/card1.png" alt="Age of Shadows">
-                </div>
-                <div class="book-detail-info">
-                    <p class="genre">Fantasy</p>
-                    <h1>Frankenstein</h1>
-                    <p class="author">Mary Shelley</p>
-                    <div class="rating">
-                    <span class="stars">★★★★☆</span>
-                    <span class="reviews-count">(128 reviews)</span>
-                </div>
-                <p class="price">$10.99</p>
-                <div class="purchase-row">
-                    <div class="qty-box">
-                       <span class="minus">−</span>
-                       <span class="qty">1</span>
-                       <span class="plus">+</span>
+
+        <!-- title -->
+        <div class="title">
+            <h1>My Account</h1>
+            <p>Manage your profile and orders</p>
+        </div>
+
+        <div class="profile-layout">
+            <!-- sidebar -->
+            <div class="profile-sidebar">
+                <a href="#" class="active">Profile Info</a>
+                <a href="#">Order History</a>
+                <a href="#">Change Password</a>
+                <a href="index.html" class="logout">Logout</a>
+            </div>
+
+            <!-- content -->
+            <!-- placeholder data below: replace with the logged-in user's real name/email via JS once login is wired up -->
+            <div class="profile-content">
+                <div class="profile-avatar-row">
+                    <div class="profile-avatar">G</div>
+                    <div>
+                        <h2>Guest User</h2>
+                        <p>guest@example.com</p>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
-                    <span class="wishlist">♡</span>
+                </div>
+
+                <h3>Profile Info</h3>
+                <input class="auth-input" placeholder="Full name" value="Guest User">
+                <input class="auth-input" placeholder="Email" value="guest@example.com">
+                <input class="auth-input" placeholder="Phone number">
+                <button class="profile-save-btn">Save Changes</button>
+
+                <h3>Order History</h3>
+                <div class="order-row">
+                    <span>#BK-2026-0417 &middot; Sep 20, 2026</span>
+                    <span class="order-status">Delivered</span>
+                    <span>$32.97</span>
+                </div>
+                <div class="order-row">
+                    <span>#BK-2026-0398 &middot; Aug 12, 2026</span>
+                    <span class="order-status">Delivered</span>
+                    <span>$19.99</span>
                 </div>
             </div>
         </div>
-        <div class="book-detail-desc">
-           <h3>Description</h3>
-           <p>A gripping tale of shadow and steel, where an ancient sword awakens a power long forgotten. Perfect for fans of dark fantasy and epic quests.</p>
-        </div>
+
         <!-- footer -->
         <div class="footer">
           <p class="footer-tagline playfair-display">Discover your next adventure</p>
@@ -70,4 +84,4 @@
           <p class="footer-copy">© 2026 Book Store — All rights reserved</p>
         </div>
     </body>
-</html>        
+</html>
